@@ -21,7 +21,7 @@ int main(){
     Interpretador parser;
     vector<FiguraGeometrica*> figs;
 
-    figs = parser.parse((char*)"C:/Users/G/Desktop/entrada.txt");
+    figs = parser.parse((char*)"C:/Users/G/Desktop/Consegui/Projeto-Sculptor-main/Projeto-Sculptor-main/Parte2/ler.txt");
 
     s1 = new Sculptor(parser.getDimx(), parser.getDimy(), parser.getDimz());
 
@@ -35,5 +35,6 @@ int main(){
         delete figs[i];
     }
     delete s1;
+    cout<< "Deu certo" <<endl;
     return 0;
 }

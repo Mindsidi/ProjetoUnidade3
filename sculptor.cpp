@@ -104,7 +104,8 @@ void Sculptor::writeOFF(char *filename){
             for(int k=0; k<nz; k++){
                 if(v[i][j][k].isOn == true){
 
-                    arq << "4 " << 8*Qvoxels << " " << 3 + 8*Qvoxels << " " << 2 + 8*Qvoxels
+                    arq << "4 " <<
+                           8*Qvoxels << " " << 3 + 8*Qvoxels << " " << 2 + 8*Qvoxels
                     << " " << 1 + 8*Qvoxels << " " << v[i][j][k].r << " " << v[i][j][k].g << " " <<
                     v[i][j][k].b << " " << v[i][j][k].alpha << endl;
 
