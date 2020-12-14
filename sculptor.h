@@ -48,6 +48,7 @@ public:
    * @param z Atribui o valor a coordenada z
    */
   void cutVoxel(int x, int y, int z);
+  void limpaVoxels(void);
   /**
    * @brief writeOFF
    * @param filename Recebe o que foi indicado, abre esse arquivo e escreve dentro dele os vertices e faces
