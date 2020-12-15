@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['main_26',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
-  ['main_2ecpp_27',['main.cpp',['../main_8cpp.html',1,'']]]
+  ['limpavoxels_25',['limpaVoxels',['../class_sculptor.html#a9469483f9acf169fc90d23997bea7ee8',1,'Sculptor']]]
 ];

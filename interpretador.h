@@ -5,7 +5,7 @@
 #include "figurageometrica.h"
 using namespace std;// não sei se deveria estar aqui, na internet diz que sim e que não
 /**
- * @brief A classe Interpretador constroi o desenho
+ * @brief classe do tipo Interpretador, que constrói o desenho
  */
 class Interpretador{
     int dimx, dimy, dimz;

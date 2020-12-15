@@ -9,7 +9,7 @@ var searchData=
   ['cutsphere_8',['CutSphere',['../class_cut_sphere.html',1,'CutSphere'],['../class_cut_sphere.html#a12b9ccb665a11db650b47fedab71fddf',1,'CutSphere::CutSphere()']]],
   ['cutsphere_2ecpp_9',['cutsphere.cpp',['../cutsphere_8cpp.html',1,'']]],
   ['cutsphere_2eh_10',['cutsphere.h',['../cutsphere_8h.html',1,'']]],
-  ['cutvoxel_11',['CutVoxel',['../class_cut_voxel.html',1,'CutVoxel'],['../class_sculptor.html#ad9d714a35fc8ae16d06eb5df37c3493c',1,'Sculptor::cutVoxel()'],['../class_cut_voxel.html#a32d12f653ebb96da8c3aa62994692bad',1,'CutVoxel::CutVoxel()']]],
+  ['cutvoxel_11',['CutVoxel',['../class_cut_voxel.html',1,'CutVoxel'],['../class_cut_voxel.html#a32d12f653ebb96da8c3aa62994692bad',1,'CutVoxel::CutVoxel()'],['../class_sculptor.html#ad9d714a35fc8ae16d06eb5df37c3493c',1,'Sculptor::cutVoxel()']]],
   ['cutvoxel_2ecpp_12',['cutvoxel.cpp',['../cutvoxel_8cpp.html',1,'']]],
   ['cutvoxel_2eh_13',['cutvoxel.h',['../cutvoxel_8h.html',1,'']]]
 ];

@@ -3,14 +3,9 @@
 #include "figurageometrica.h"
 #include "sculptor.h"
 /**
- * @brief putEllipsoid Cria uma elipse dentro da matriz 3d, a formula utilizada pode ser encontrada nesse site:
+ * @brief putEllipsoid insere elipsóide dentro da matriz 3d, cuja fórmula utilizada pode ser encontrada nesse site:
  * http://www.mat.ufpb.br/sergio/winplot/vetorial/quadricas.html#:~:text=1.2.-,Elips%C3%B3ide,os%20eixos%20maior%20e%20menor
- * @param xcenter Local em x que representa o centro da elipse
- * @param ycenter Local em y que representa o centro da elipse
- * @param zcenter Local em z que representa o centro da elipse
- * @param rx Raio de x
- * @param ry Raio de y
- * @param rz Raio de z
+ * @param com centro do elipsoide nas coordenadas (xcenter, ycenter, zcenter) e raios rx, ry, rz
  * @param atribui os valores das cores
  */
 class PutEllipsoid : public FiguraGeometrica{

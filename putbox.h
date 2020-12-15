@@ -3,14 +3,11 @@
 #include "figurageometrica.h"
 #include "sculptor.h"
 /**
- * @brief putBox Cria um quadrado dentro da matriz 3d
- * @param x0 valor inicial de x na formula
- * @param x1 valor final de x na formula
- * @param y0 valor inicial de y na formula
- * @param y1 valor final de y na formula
- * @param z0 valor inicial de z na formula
- * @param z1 valor final de z na formula
- * @param recebe os valores da cores e transparencia
+ * @brief putBox insere bloco quadrado/retangular dentro da matriz 3d
+ * @param x0 e x1, valor inicial e final de x na fórmula, respectivamente
+ * @param y0 e y1, valor inicial e final de y na fórmula, respectivamente
+ * @param z0 e z1, valor inicial e final de z na fórmula, respectivamente
+ * @param recebe os valores de cores e transparência
  */
 class PutBox : public FiguraGeometrica{
 
