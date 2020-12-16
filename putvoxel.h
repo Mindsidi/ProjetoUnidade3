@@ -4,10 +4,8 @@
 #include "sculptor.h"
 /**
  * @brief putVoxel Inicializa o voxel
- * @param x Atribui o valor a coordenada x
- * @param y Atribui o valor a coordenada y
- * @param z Atribui o valor a coordenada z
- * @param atribui os valores das cores e transparencia
+ * @param x, y, z atribui o valor às coordenada (x, y, z)
+ * @param atribui os valores das cores e transparência
  */
 class PutVoxel : public FiguraGeometrica{
 

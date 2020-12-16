@@ -4,6 +4,7 @@
 #include <string>
 #include <cstdlib>
 #include <iostream>
+#include <queue>
 
 using namespace std;
 
@@ -56,8 +57,38 @@ void Sculptor::cutVoxel(int x, int y, int z){
     v[x][y][z].isOn = false;
 }
 
+void Sculptor::limpaVoxels(void){
+  std::queue<int> q;
+  int x, y, z;
+  int lx,ly,lz;
+  for(x=1; x<nx-1; x++){
+    for(y=1; y<ny-1; y++){
+      for(z=1; z<nz-1; z++){
+        if((v[x][y][z].isOn == true) &&
+           (v[x+1][y][z].isOn == true) &&
+           (v[x-1][y][z].isOn == true) &&
+           (v[x][y+1][z].isOn == true) &&
+           (v[x][y-1][z].isOn == true) &&
+           (v[x][y][z+1].isOn == true) &&
+           (v[x][y][z-1].isOn == true)){
+          q.push(x);
+          q.push(y);
+          q.push(z);
+        }
+      }
+    }
+  }
+  while(!q.empty()){
+    lx=q.front(); q.pop();
+    ly=q.front(); q.pop();
+    lz=q.front(); q.pop();
+    v[lx][ly][lz].isOn = false;
+  }
+}
+
 void Sculptor::writeOFF(char *filename){
 
+    limpaVoxels();
     int Qvoxels = 0;
 
     for(int i=0; i<nx; i++){

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ProjetoUnidade2: main.cpp File Reference</title>
+<title>Projeto Unidade 3: main.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetoUnidade2
+   <div id="projectname">Projeto Unidade 3
    &#160;<span id="projectnumber">1.0</span>
    </div>
    <div id="projectbrief">Segunda parte do escultor digital</div>
@@ -103,41 +103,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;          {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="class_sculptor.html">Sculptor</a> *s1;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="class_interpretador.html">Interpretador</a> parser;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    vector&lt;FiguraGeometrica*&gt; figs;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    figs = parser.<a class="code" href="class_interpretador.html#af31b0a5ca1f68666a8244b5d61b2946b">parse</a>((<span class="keywordtype">char</span>*)<span class="stringliteral">&quot;C:/Users/G/Desktop/Consegui/Projeto-Sculptor-main/Projeto-Sculptor-main/Parte2/ler.txt&quot;</span>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    s1 = <span class="keyword">new</span> <a class="code" href="class_sculptor.html">Sculptor</a>(parser.<a class="code" href="class_interpretador.html#a21bb78f60382699fcd32f35c9c4b6ce8">getDimx</a>(), parser.<a class="code" href="class_interpretador.html#ac76029812005ac606d0bbda805e87bfc">getDimy</a>(), parser.<a class="code" href="class_interpretador.html#a527bbdc1850ba66ef66d97aecb322576">getDimz</a>());</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i=0; i&lt;figs.size(); i++){</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        figs[i]-&gt;draw(*s1);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    s1-&gt;<a class="code" href="class_sculptor.html#aa8ed61fc7cae10c4d7a895330fe5e309">writeOFF</a>((<span class="keywordtype">char</span>*)<span class="stringliteral">&quot;C:/Users/G/Desktop/saida.off&quot;</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i=0; i&lt;figs.size(); i++){</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">delete</span> figs[i];</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">delete</span> s1;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    cout&lt;&lt; <span class="stringliteral">&quot;Deu certo&quot;</span> &lt;&lt;endl;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 </div><!-- contents -->
-<div class="ttc" id="aclass_interpretador_html_af31b0a5ca1f68666a8244b5d61b2946b"><div class="ttname"><a href="class_interpretador.html#af31b0a5ca1f68666a8244b5d61b2946b">Interpretador::parse</a></div><div class="ttdeci">std::vector&lt; FiguraGeometrica * &gt; parse(std::string filename)</div><div class="ttdef"><b>Definition:</b> interpretador.cpp:23</div></div>
-<div class="ttc" id="aclass_interpretador_html_a527bbdc1850ba66ef66d97aecb322576"><div class="ttname"><a href="class_interpretador.html#a527bbdc1850ba66ef66d97aecb322576">Interpretador::getDimz</a></div><div class="ttdeci">int getDimz()</div><div class="ttdoc">getDimx</div><div class="ttdef"><b>Definition:</b> interpretador.cpp:101</div></div>
-<div class="ttc" id="aclass_interpretador_html"><div class="ttname"><a href="class_interpretador.html">Interpretador</a></div><div class="ttdoc">A classe Interpretador constroi o desenho.</div><div class="ttdef"><b>Definition:</b> interpretador.h:10</div></div>
-<div class="ttc" id="aclass_sculptor_html"><div class="ttname"><a href="class_sculptor.html">Sculptor</a></div><div class="ttdoc">A classe Sculptor.</div><div class="ttdef"><b>Definition:</b> sculptor.h:17</div></div>
-<div class="ttc" id="aclass_interpretador_html_ac76029812005ac606d0bbda805e87bfc"><div class="ttname"><a href="class_interpretador.html#ac76029812005ac606d0bbda805e87bfc">Interpretador::getDimy</a></div><div class="ttdeci">int getDimy()</div><div class="ttdoc">getDimx</div><div class="ttdef"><b>Definition:</b> interpretador.cpp:97</div></div>
-<div class="ttc" id="aclass_sculptor_html_aa8ed61fc7cae10c4d7a895330fe5e309"><div class="ttname"><a href="class_sculptor.html#aa8ed61fc7cae10c4d7a895330fe5e309">Sculptor::writeOFF</a></div><div class="ttdeci">void writeOFF(char *filename)</div><div class="ttdoc">writeOFF</div><div class="ttdef"><b>Definition:</b> sculptor.cpp:59</div></div>
-<div class="ttc" id="aclass_interpretador_html_a21bb78f60382699fcd32f35c9c4b6ce8"><div class="ttname"><a href="class_interpretador.html#a21bb78f60382699fcd32f35c9c4b6ce8">Interpretador::getDimx</a></div><div class="ttdeci">int getDimx()</div><div class="ttdoc">getDimx</div><div class="ttdef"><b>Definition:</b> interpretador.cpp:93</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20

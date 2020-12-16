@@ -21,7 +21,7 @@ int main(){
     Interpretador parser;
     vector<FiguraGeometrica*> figs;
 
-    figs = parser.parse((char*)"C:/Users/G/Desktop/Consegui/Projeto-Sculptor-main/Projeto-Sculptor-main/Parte2/ler.txt");
+    figs = parser.parse((char*)"ler.txt");
 
     s1 = new Sculptor(parser.getDimx(), parser.getDimy(), parser.getDimz());
 
@@ -29,7 +29,7 @@ int main(){
         figs[i]->draw(*s1);
     }
 
-    s1->writeOFF((char*)"C:/Users/G/Desktop/saida.off");
+    s1->writeOFF((char*)"saida.off");
 
     for(size_t i=0; i<figs.size(); i++){
         delete figs[i];

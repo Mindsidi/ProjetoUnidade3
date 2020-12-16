@@ -3,10 +3,8 @@
 #include "figurageometrica.h"
 #include "sculptor.h"
 /**
- * @brief cutVoxel Desabilida o voxel
- * @param x Atribui o valor a coordenada x
- * @param y Atribui o valor a coordenada y
- * @param z Atribui o valor a coordenada z
+ * @brief cutVoxel remove o voxel
+ * @param x, y, z atribui valor às coordenadas (x, y ,z)
  */
 class CutVoxel : public FiguraGeometrica{
     int x, y, z;
